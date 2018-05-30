@@ -2,8 +2,6 @@
 ContractSort is a BattleTech mod (using ModTek) that sorts the contract list.
 
 ## Requirements
-** Warning: Uses the experimental BTML mod loader and ModTek that might change, come here again to check for updates **
-
 * install [BattleTechModLoader](https://github.com/Mpstark/BattleTechModLoader/releases) using the [instructions here](https://github.com/Mpstark/BattleTechModLoader)
 * install [ModTek](https://github.com/Mpstark/ModTek/releases) using the [instructions here](https://github.com/Mpstark/ModTek)
 
