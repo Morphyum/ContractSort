@@ -3,8 +3,8 @@ using System.IO;
 
 namespace ContractSort {
     public class Logger {
+        static string filePath = $"{ContractSort.ModDirectory}/Log.txt";
         public static void LogError(Exception ex) {
-            string filePath = "mods/ContractSort/Log.txt";
             (new FileInfo(filePath)).Directory.Create();
             using (StreamWriter writer = new StreamWriter(filePath, true)) {
                 writer.WriteLine("Message :" + ex.Message + "<br/>" + Environment.NewLine + "StackTrace :" + ex.StackTrace +
@@ -14,7 +14,6 @@ namespace ContractSort {
         }
 
         public static void LogLine(String line) {
-            string filePath = "mods/ContractSort/Log.txt";
             (new FileInfo(filePath)).Directory.Create();
             using (StreamWriter writer = new StreamWriter(filePath, true)) {
                 writer.WriteLine(line + Environment.NewLine + "Date :" + DateTime.Now.ToString());

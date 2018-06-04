@@ -8,7 +8,7 @@ namespace ContractSort {
 
         public static Settings LoadSettings() {
             try {
-                using (StreamReader r = new StreamReader("mods/ContractSort/settings.json")) {
+                using (StreamReader r = new StreamReader($"{ContractSort.ModDirectory}/settings.json")) {
                     string json = r.ReadToEnd();
                     return JsonConvert.DeserializeObject<Settings>(json);
                 }
