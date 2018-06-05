@@ -1,0 +1,12 @@
+{
+    "Name": "ContractSort",
+    "Enabled": true,
+
+    "Version": "0.1",
+    "Description": "Sorting the contract list.",
+    "Author": "Morphyum",
+    "Website": "https://github.com/Morphyum/ContractSort",
+    "Contact": "",
+	
+	"DLL": "ContractSort.dll",
+}
